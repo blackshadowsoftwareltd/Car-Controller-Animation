@@ -6,6 +6,16 @@ const Color redColor = Color(0xFFFF5368);
 const double defaultPadding = 15;
 const Duration defaultDuration = Duration(milliseconds: 500);
 
+const largeStyle =
+    TextStyle(color: Colors.white, fontSize: 40, letterSpacing: 1);
+const mediumStyle =
+    TextStyle(color: Colors.white, fontSize: 25, letterSpacing: 1);
+const smallStyle = TextStyle(
+    color: Colors.white,
+    fontSize: 18,
+    fontWeight: FontWeight.w300,
+    letterSpacing: 1);
+
 List<String> navIconSrc = [
   'assets/icons/Lock.svg',
   'assets/icons/Charge.svg',

@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 
 class HomeController extends ChangeNotifier {
+  int selectedBottomTab = 0;
+
   bool isRightDoorLock = true;
   bool isLeftDoorLock = true;
   bool isTopDoorLock = true;
@@ -23,6 +25,11 @@ class HomeController extends ChangeNotifier {
 
   void updateBottomDoorLock() {
     isBottomDoorLock = !isBottomDoorLock;
+    notifyListeners();
+  }
+
+  setSelectedBottomTab(value) {
+    selectedBottomTab = value;
     notifyListeners();
   }
 }
