@@ -8,11 +8,18 @@ const Duration defaultDuration = Duration(milliseconds: 500);
 
 const largeStyle =
     TextStyle(color: Colors.white, fontSize: 40, letterSpacing: 1);
+const extraLargeStyle =
+    TextStyle(color: Colors.white, fontSize: 70, letterSpacing: 1);
 const mediumStyle =
     TextStyle(color: Colors.white, fontSize: 25, letterSpacing: 1);
 const smallStyle = TextStyle(
     color: Colors.white,
     fontSize: 18,
+    fontWeight: FontWeight.w300,
+    letterSpacing: 1);
+const extraSmallStyle = TextStyle(
+    color: Colors.white,
+    fontSize: 13,
     fontWeight: FontWeight.w300,
     letterSpacing: 1);
 
